@@ -1,0 +1,28 @@
+Computer System
+    program counter: address of next instruction
+
+Microprocessor
+    Arithmetic logic unit
+    control unit
+    memory address register
+    memory data register
+    program counter
+    instruction register
+    
+Von Neumann model/architecture
+    cpus can decode instructions and perform simple operations on register contents
+    at the rate of one or more operations per clock cycle
+
+Instruction Cycle
+    fetch - get instruction - increment pc
+    decode - translate instruction into understandable operations
+    execute
+
+Cpu cycle implementation
+    program counter
+        address of next instruction to be fetched
+    instruction register
+        instruction currentlly being decoded and or execution
+    cpu state
+        snapshot of all values in different registers
+
