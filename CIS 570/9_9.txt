@@ -8,7 +8,7 @@ Microprocessor
     memory data register
     program counter
     instruction register
-    
+
 Von Neumann model/architecture
     cpus can decode instructions and perform simple operations on register contents
     at the rate of one or more operations per clock cycle
@@ -26,3 +26,8 @@ Cpu cycle implementation
     cpu state
         snapshot of all values in different registers
 
+MARIE instruction set
+    Bits 15-12 are opcode - what the operation is
+        2^4 instructions - 16 instructions allowed and 9 total
+    bits 11-0 are address - the memory you are trying to access are 4k
+        2^12
