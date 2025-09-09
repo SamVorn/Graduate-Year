@@ -1,0 +1,40 @@
+Theoretical Computer Science
+
+if every state reaches the requirement your program is correct - lack of deadlocks and fulfils final state
+
+DFA/NFA, PDA, Turing Machine
+Petri net
+this course gives a solid background in computer science - not coding but theory
+this is not a compiler course, this is a design course on how to design new algorithms and programming languages and computer
+ideas
+
+Three Questions
+1. Why should we study Theoretical Computer Science?
+    Algorithm can be formally defined by turing Machine
+    Algorithms are high level turing machines
+2. What can we learn from this course?
+    Background knowledge for building a compiler
+        DFA/NFA PDA
+            DFA/NFA used to define regular language and regular expressions
+            PDA for context free language and context free grammar
+        Automata Theory 
+        Speech processing 
+        bioinformatics
+    Computability Theory 
+        what can we compute
+            unsolvable -> undecidable
+            halting problem
+        Mapping reducibility
+    Time complexity
+        how fast can we compute?
+        P & NP
+        NP - Complete
+3. How to survive in this course?
+    RAD
+        R = Read the textbook - read before lectures and just READ THE BOOK
+        A = Attend the lectures
+        D = Do your homework
+    
+
+Midterm Thursday Oct 23
+Final Exam TBD

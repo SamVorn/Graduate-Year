@@ -1,0 +1,27 @@
+More hands on course 
+- first few chapters we largely focus on coding
+- this class is developed for beginners in LLMs not for advanced developers
+- entry level course
+- first textbook has github~
+- second textbook has open source information
+We focus on fundamentals
+- archetecture
+- components of LLMs
+- how to build them
+- how to train LLMs
+- training, finetuning, alignment, etc
+Because of hardware limitations class will be modeled around lack of ability
+due to hardware limitations and time we will not be making compliated models
+
+Required
+- attendance
+- laptops allowed
+- office hours mo/we/fri 12-1 pm
+- project oriented course (2 projects and 4 assignments)
+- 30% on projects
+- attendance taken
+- 40% on assignments
+
+Patrick, Misha, Henry, Adam, Me 
+
+Put groups on canvas

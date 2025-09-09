@@ -1,0 +1,49 @@
+Interrelationo between architecture and system software
+
+Advanced topics of compiling, assembly, linking and loading of high-level language software are included
+
+A new computing class roughly every decade (Bell's Law)
+    Mainframe -> minicomputer -> workstation -> PC -> laptop -> tablets
+Moore's Law
+    transistor density on integrated circuits doubles about every two years
+
+All microprocessor companies moving to multiprocessor systems
+Single processors gain performance by exploiting instruction level parallelism
+    ILP
+Multiprocessors exploit either
+    thread level parallelism TLP
+    Data level parallelism DLP
+We have infrastructure for single processor systems
+    algorithms, languages, compilers, operating systems, architectures
+    these do not scale well
+multiprocessor design - not as simple as creating a chip with 1000 CPUs
+    task scheduling/division
+    communication
+    memory issues
+    even programming -> moving from 1 to 2 CPUs is difficult
+
+Frequency, heat, etc the worse the transistor 
+the smaller the transister the harder it is to control
+Need for heat dissapation
+
+Blocks in are split to do specific tasks rather than general tasks
+
+Design Principles
+    Take advantage of parallelism
+    principle of locality 
+    focus on the common case 
+    amdahl's law 
+    generalized processor performance 
+
+Microprocessor 
+    Arithmetic Logic Unit
+        digital circuit that performs arithmetic and logical operations
+    control unit 
+        provides timing and control signals
+    memory address register
+        memory address of data to be read/written to RAM
+    program counter
+        address of next instruction to be fetched
+    Instruction register  
+        instruction currently being executed or decoded
+

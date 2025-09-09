@@ -1,0 +1,11 @@
+PyTorch powers
+    chat gpt/gpt models
+    stable diffusion
+    most research papers
+
+Key Advantages
+    pythonic and intuitive
+    dynamic computation graphs
+    excellent debugging
+    strong GPU support
+
