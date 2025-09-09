@@ -29,5 +29,5 @@ Cpu cycle implementation
 MARIE instruction set
     Bits 15-12 are opcode - what the operation is
         2^4 instructions - 16 instructions allowed and 9 total
-    bits 11-0 are address - the memory you are trying to access are 4k
-        2^12
+    bits 11-0 are address - you have 4k memory addresses you can access
+        2^12 = 4092 possible addresses
