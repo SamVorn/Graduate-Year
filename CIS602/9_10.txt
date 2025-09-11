@@ -1,0 +1,83 @@
+Understand Gradient Pull
+Difference between buffer and parameters
+Methods to create datasets
+How to use a data loader to establish a complete training archive
+
+General Architecture for Transformers
+GPT Models
+Training Methodology from higher label
+possible applications
+
+Paradigm Shift in NLP
+    before llms: rule based and simple ML approaches
+        email spam classification with handcrafted features
+        pattern recognition with regular expressions
+        Task-specific models with limited generalization
+    After LLMs: deep learning with emergent capabilities
+        complex instruction following and reasoning
+        contextual understanding across domains
+        creative and coherent text generation
+Example
+    TASK: write a professional email from keywords
+    traditional NLP: would require templates and extensive rules
+    Modern LLM: can generate contextually appropriate emails with proper tone, structure, and content from minimal input
+What is an LLM?
+Key characteristics
+    Large refers to
+        model parameters: 10B to 1T+ weights
+        training data: hundreds of billions to trillions of tokens
+        computational requirements: thousands of GPUs
+    training objective: next-word prediction (autoregressive)
+    Architecture: transformer bavsed with self attention mechanisms
+Scale Example
+    GPT-3 specifications
+    175 billion parameters
+    trained on 300 billion tokens from 499 billion total
+    training cost ` 4.6 million in compute
+    would take a single GPU approx 355 years to train
+
+AI Heirarchy and LLM Position
+    Practical Evolution Example: Spam detection
+        1. rule based ai - if email contains "nigerian prince" then spam
+        2. classical ML - naive bayes on word frequencies
+        3. deep learning - RNNs for sequence modeling
+        4. LLMs - understanding context, sarcasm, and subtle patterns
+
+Transformer Architecture
+    Key Innovation - Self Attention
+        problem: RNNs process sequences step by step (slow, limited context)
+        solution: attention allows direct connections between all positions
+        example: in "the bank by the river was steep," the model can directly connect "bank" with "river" and "steep" to disambiguate meaning
+    Architecture components
+        multi-head attention: 8-16 parallel attention mechanisms
+        position encoding: injects sequence order information
+        feed-forrward networks: 2-layer MLPs after attention
+        Layer normalization: stabilizes training
+BERT vs GPT Architectures
+    Encoder Only (BERT)
+        training - masked language modeling
+        strength - bidirectional context
+        real world use - twitter toxicity detection, google search ranking
+    Decoder only (GPT)
+        traning- casual language modeling
+        strengths - generation, few shot learning, versatility
+        real world use - chat gpt, github copilot, content creation
+    Sentiment analysis task
+        bert: 94% accuracy
+        GPT: 91% accuracy
+Pretraining and Fine Tuning
+Stage 1 Pretraining
+    objective - next word prediction on unlabeled text
+    duration - weeks to months
+    cost - 100k to 10M
+    result: general language understanding
+Stage 2 - fine tuning (task specific)
+    objective - supervised learning on labeled data
+    duration - hours to days
+    cost - 10 to 1000
+    result - specialized capabilities
+Medical LLM
+    1. pretrain - gpt on general internet text
+    2. finetune - on 100k medical Q&A pairs
+    3. result - 85% accuracy on medical licensing exams
+
